@@ -1,0 +1,16 @@
+.body{
+    background-color: black;
+}
+
+.blog-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.custom-blog{
+    margin: 5px;
+    height: 100%;
+    align-items: center;
+}
