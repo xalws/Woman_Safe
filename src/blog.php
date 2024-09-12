@@ -1,5 +1,9 @@
 <?php
 include("../db/conection.php");
+
+// Obtener las historias
+$query = "SELECT * FROM historias";
+$result = mysqli_query($conn, $query);
 ?>
 
 <!doctype html>
@@ -61,24 +65,31 @@ include("../db/conection.php");
                         </div>
                     </form>
 
-                    <div class="post">
-                        <div class="post-header d-flex align-items-center">
-                            <img src="https://via.placeholder.com/40" alt="User profile">
-                            <div class="ms-3">
-                                <h5 class="m-0">xalwslex</h5>
+                    <?php 
+                    // Mostrar historias
+                    while ($row = mysqli_fetch_assoc($result)){
+                        echo "<div class=\"post\">
+                        <div class=\"post-header d-flex align-items-center\">
+                            <img src=\"https://via.placeholder.com/40\" alt=\"User profile\">
+                            <div class=\"ms-3\">
+                                <h5 class=\"m-0\">xalwslex</h5>
                                 <small>ayer · Mujer Segura</small>
                             </div>
-                        </div>
-                        <p class="mt-3">¡Te damos la bienvenida al grupo! Puedes conectarte con otros miembros, obtener actualizaciones y compartir fotos.</p>
-                        <div class="d-flex justify-content-between">
+                        </div>";
+                        echo "<p class=\"mt-3\">".$row["historia"]."</p>";
+                        echo "<div class=\"d-flex justify-content-between\">
                             <div>
-                                <button class="btn btn-dark btn-sm">0 👍</button>
-                                <button class="btn btn-dark btn-sm">+ 😄</button>
+                                <button class=\"btn btn-dark btn-sm\">0 👍</button>
+                                <button class=\"btn btn-dark btn-sm\">+ 😄</button>
                             </div>
                             <small>0 comentarios</small>
                         </div>
-                        <input type="text" class="form-control mt-3" placeholder="Escribir un comentario...">
+                        <input type=\"text\" class=\"form-control mt-3\" placeholder=\"Escribir un comentario...\">
                     </div>
+                    
+                    <br>";
+                    }
+                    ?>
                 </div>
 
                 <!-- Estadisticas -->
