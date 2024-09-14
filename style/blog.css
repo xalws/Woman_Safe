@@ -37,9 +37,10 @@
 
 .form-control,.btn {
     margin-right: 10px;
+    resize: none;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
     color: #ffffff;
     background-color: #660099;
 }
@@ -53,4 +54,10 @@
 .group-info img {
     width: 50px;
     border-radius: 5px;
+}
+
+.custom-img-perfil{
+    object-fit: cover;
+    height: 400px;
+    width: 500px;
 }

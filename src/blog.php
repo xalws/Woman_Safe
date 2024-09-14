@@ -1,9 +1,10 @@
 <?php
 include("../db/conection.php");
-
-// Obtener las historias
-$query = "SELECT * FROM historias";
+#  include("../src/cercania.php");
+// Obtener las historias del ultimo mes
+$query = "SELECT * FROM historias WHERE fecha >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)";
 $result = mysqli_query($conn, $query);
+
 ?>
 
 <!doctype html>
@@ -18,6 +19,7 @@ $result = mysqli_query($conn, $query);
         content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <link rel="stylesheet" href="../style/blog.css">
+    <link rel="shortcut icon" href="../img/perfil.jpg" type="image/x-icon">
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -56,7 +58,7 @@ $result = mysqli_query($conn, $query);
                 <div class="col-lg-8">
                     <form action="../db/insertar.php" method="post">
                         <div class="feed-header">
-                        <div class="d-flex">
+                            <div class="d-flex">
                                 <textarea type="text" for="historia" id="historia" name="historia" class="form-control" placeholder="Cuentanos tu historia..."></textarea>
                                 <input type="hidden" name="lat" id="lat">
                                 <input type="hidden" name="longitude" id="longitude">
@@ -65,18 +67,19 @@ $result = mysqli_query($conn, $query);
                         </div>
                     </form>
 
-                    <?php 
+                    <?php
                     // Mostrar historias
-                    while ($row = mysqli_fetch_assoc($result)){
+                    $a = 0;
+                    while ($row = mysqli_fetch_assoc($result)) {
                         echo "<div class=\"post\">
                         <div class=\"post-header d-flex align-items-center\">
-                            <img src=\"https://via.placeholder.com/40\" alt=\"User profile\">
+                            <!--<img class=\"custom-img-perfil\" src=\"../img/perfil.jpg\" alt=\"User profile\">-->
                             <div class=\"ms-3\">
-                                <h5 class=\"m-0\">xalwslex</h5>
+                                <h5 class=\"m-0\">" . $row["fecha"] . "</h5>
                                 <small>ayer · Mujer Segura</small>
                             </div>
                         </div>";
-                        echo "<p class=\"mt-3\">".$row["historia"]."</p>";
+                        echo "<p class=\"mt-3\">" . $row["historia"] . "</p>";
                         echo "<div class=\"d-flex justify-content-between\">
                             <div>
                                 <button class=\"btn btn-dark btn-sm\">0 👍</button>
@@ -88,6 +91,7 @@ $result = mysqli_query($conn, $query);
                     </div>
                     
                     <br>";
+                        $a = $a + 1;
                     }
                     ?>
                 </div>
@@ -96,7 +100,7 @@ $result = mysqli_query($conn, $query);
                 <div class="col-lg-4">
                     <div class="stats-section">
                         <h5>Estadísticas</h5>
-                        <p>Denuncias recibidas este mes: 120</p>
+                        <p>Denuncias recibidas este mes: <?php echo $a; ?></p>
                         <p>Denuncias en seguimiento: 80</p>
                     </div>
 
@@ -106,25 +110,49 @@ $result = mysqli_query($conn, $query);
         </div>
 
         <script>
-            document.addEventListener("DOMContentLoaded", function(){
+            document.addEventListener("DOMContentLoaded", function() {
                 // El navegador puede extraer la ubicacion
-                if (navigator.geolocation){
+                if (navigator.geolocation) {
                     // Coordenadas
-                    navigator.geolocation.getCurrentPosition(function (position){
+                    navigator.geolocation.getCurrentPosition(function(position) {
                         // latitud y longitud
                         var lat = position.coords.latitude;
                         var longitude = position.coords.longitude;
 
+                        console.log("Latitud:", lat, "Longitud:", longitude);
+
+
                         // Insertar en los inputs hidden
                         document.getElementById('lat').value = lat;
                         document.getElementById('longitude').value = longitude;
-                    }, function(error){
-                        alert ('Error al obtener la ubicacion', error);
+
+                        console.log("Enviando coordenadas: ", lat, longitude);
+
+                        // Enviar las coordenadas al servidor usando fetch()
+                        fetch("cercania.php", {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/x-www-form-urlencoded"
+                                },
+                                body: "lat=" + lat + "&longitude=" + longitude
+
+                            })
+                            .then(response => response.text())
+                            .then(data => {
+                                console.log(data);
+                            })
+                            .catch(error => {
+                                console.error("Error:", error);
+                            });
+
+                    }, function(error) {
+                        alert('Error al obtener la ubicacion' + error);
                     });
-                }else{
-                    alert.error('El navegador no es compatible para obtener la ubicacion');
+                } else {
+                    alert('El navegador no es compatible para obtener la ubicacion');
                 }
             });
+
         </script>
 
         <!-- Bootstrap JavaScript Libraries -->
