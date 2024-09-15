@@ -2,8 +2,11 @@
 include("../db/conection.php");
 #  include("../src/cercania.php");
 // Obtener las historias del ultimo mes
-$query = "SELECT * FROM historias WHERE fecha >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)";
-$result = mysqli_query($conn, $query);
+$query_historias = "SELECT * FROM historias WHERE fecha >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)";
+$result = mysqli_query($conn, $query_historias);
+
+$query_historias = "SELECT * FROM comentarios INNER JOIN historias ON comentarios.id_historia = historias.id";
+$result_comentarios = mysqli_query($conn, $query_historias);
 
 ?>
 
@@ -81,15 +84,26 @@ $result = mysqli_query($conn, $query);
                         </div>";
                         echo "<p class=\"mt-3\">" . $row["historia"] . "</p>";
                         echo "<div class=\"d-flex justify-content-between\">
-                            <div>
-                                <button class=\"btn btn-dark btn-sm\">0 👍</button>
-                                <button class=\"btn btn-dark btn-sm\">+ 😄</button>
+                                <div>
+                                    <button class=\"btn btn-dark btn-sm\">0 👍</button>
+                                    <button class=\"btn btn-dark btn-sm\">+ 😄</button>
+                                </div>
+                                <small>0 comentarios</small>
                             </div>
-                            <small>0 comentarios</small>
-                        </div>
-                        <input type=\"text\" class=\"form-control mt-3\" placeholder=\"Escribir un comentario...\">
+                            <p>";
+                        mysqli_data_seek($result_comentarios, 0);
+                        while ($row_comentarios = mysqli_fetch_assoc($result_comentarios)) {
+                            if ($row['id'] == $row_comentarios['id_historia']) {
+                                echo $row_comentarios['comentario'] . "<br>";
+                            }
+                        }
+                        echo "</p>
+                        <form action=\"../db/insertar_comentario.php\" method=\"post\">
+                            <input type = \"hidden\" id=\"id_historia\" name=\"id_historia\" value=\"" . $row['id'] . "\">
+                            <input type=\"text\" for=\"comentario\" id=\"comentario\" name=\"comentario\" class=\"form-control mt-3\" placeholder=\"Escribir un comentario...\">
+                            <button type=\"submit\" class=\"btn btn-secondary mt-2\">Comentar</button>
+                        </form>
                     </div>
-                    
                     <br>";
                         $a = $a + 1;
                     }
@@ -141,9 +155,7 @@ $result = mysqli_query($conn, $query);
                             .then(data => {
                                 console.log(data);
                             })
-                            .catch(error => {
-                                console.error("Error:", error);
-                            });
+
 
                     }, function(error) {
                         alert('Error al obtener la ubicacion' + error);
@@ -152,7 +164,6 @@ $result = mysqli_query($conn, $query);
                     alert('El navegador no es compatible para obtener la ubicacion');
                 }
             });
-
         </script>
 
         <!-- Bootstrap JavaScript Libraries -->
