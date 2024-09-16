@@ -18,6 +18,6 @@ try{
             alert("Error en la coneccion")
         </script>
         ';
-
+        
 }
 ?>

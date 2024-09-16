@@ -1,13 +1,20 @@
 <?php
 include("../db/conection.php");
-#  include("../src/cercania.php");
+
 // Obtener las historias del ultimo mes
 $query_historias = "SELECT * FROM historias WHERE fecha >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)";
 $result = mysqli_query($conn, $query_historias);
 
+// Obtener los comentarios 
 $query_historias = "SELECT * FROM comentarios INNER JOIN historias ON comentarios.id_historia = historias.id";
 $result_comentarios = mysqli_query($conn, $query_historias);
 
+// Total de denuncias
+$query_total = 'SELECT COUNT(*) FROM historias';
+$result_total = $conn->query($query_total);
+
+// Recuperar el total 
+$cantidad = $result_total->fetch_row()[0];
 ?>
 
 <!doctype html>
@@ -22,7 +29,7 @@ $result_comentarios = mysqli_query($conn, $query_historias);
         content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <link rel="stylesheet" href="../style/blog.css">
-    <link rel="shortcut icon" href="../img/perfil.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -65,6 +72,7 @@ $result_comentarios = mysqli_query($conn, $query_historias);
                                 <textarea type="text" for="historia" id="historia" name="historia" class="form-control" placeholder="Cuentanos tu historia..."></textarea>
                                 <input type="hidden" name="lat" id="lat">
                                 <input type="hidden" name="longitude" id="longitude">
+                                <input type="hidden" name="img" id="img">
                                 <button type="submit" class="btn btn-custom">Agregar</button>
                             </div>
                         </div>
@@ -74,40 +82,59 @@ $result_comentarios = mysqli_query($conn, $query_historias);
                     // Mostrar historias
                     $a = 0;
                     while ($row = mysqli_fetch_assoc($result)) {
+                        // Contar los comentarios por publicacion
+                        $id_historia = $row['id'];
+
+                        // Igualar el id del comentario con el de su publicacion
+                        $query_comentarios = "SELECT COUNT(*) AS num_comentarios FROM comentarios WHERE id_historia = $id_historia";
+                        $result_comentarios = mysqli_query($conn, $query_comentarios);
+                        $row_comentarios_count = mysqli_fetch_assoc($result_comentarios);
+
+                        // Numero de comentarios
+                        $num_comentarios = $row_comentarios_count['num_comentarios'];
+
+                        // Mostrar las historias
                         echo "<div class=\"post\">
                         <div class=\"post-header d-flex align-items-center\">
-                            <!--<img class=\"custom-img-perfil\" src=\"../img/perfil.jpg\" alt=\"User profile\">-->
+                            <img class=\"custom-img-perfil\" src=".$row["img"]." alt=\"Photo\">
                             <div class=\"ms-3\">
                                 <h5 class=\"m-0\">" . $row["fecha"] . "</h5>
-                                <small>ayer · Mujer Segura</small>
+                                <small>Mujer Segura</small>
                             </div>
                         </div>";
-                        echo "<p class=\"mt-3\">" . $row["historia"] . "</p>";
-                        echo "<div class=\"d-flex justify-content-between\">
-                                <div>
-                                    <button class=\"btn btn-dark btn-sm\">0 👍</button>
-                                    <button class=\"btn btn-dark btn-sm\">+ 😄</button>
-                                </div>
-                                <small>0 comentarios</small>
-                            </div>
-                            <p>";
-                        mysqli_data_seek($result_comentarios, 0);
-                        while ($row_comentarios = mysqli_fetch_assoc($result_comentarios)) {
-                            if ($row['id'] == $row_comentarios['id_historia']) {
+                            echo "<p class=\"mt-3\">" . $row["historia"] . "</p>";
+                            echo "<div class=\"d-flex justify-content-between\">
+                        <div>
+                            <!--<button class=\"btn btn-dark btn-sm\">0 👍</button>
+                            <button class=\"btn btn-dark btn-sm\">+ 😄</button>-->
+                        </div>
+                        <small>$num_comentarios comentarios</small>
+                        </div>";
+
+                        // Mostrar comentarios
+                        $query_comentarios_list = "SELECT comentario FROM comentarios WHERE id_historia = $id_historia";
+                        $result_comentarios_list = mysqli_query($conn, $query_comentarios_list);
+                        echo "<p>";
+                            while ($row_comentarios = mysqli_fetch_assoc($result_comentarios_list)) {
                                 echo $row_comentarios['comentario'] . "<br>";
                             }
-                        }
-                        echo "</p>
-                        <form action=\"../db/insertar_comentario.php\" method=\"post\">
-                            <input type = \"hidden\" id=\"id_historia\" name=\"id_historia\" value=\"" . $row['id'] . "\">
+                        echo "</p>";
+
+                        // Formulario de comentario
+                        echo "<form action=\"../db/insertar_comentario.php\" method=\"post\">
+
+                        <!--Tomar el id de la publicacion-->
+                            <input type=\"hidden\" id=\"id_historia\" name=\"id_historia\" value=\"" . $row['id'] . "\">
                             <input type=\"text\" for=\"comentario\" id=\"comentario\" name=\"comentario\" class=\"form-control mt-3\" placeholder=\"Escribir un comentario...\">
                             <button type=\"submit\" class=\"btn btn-secondary mt-2\">Comentar</button>
                         </form>
-                    </div>
-                    <br>";
+                </div>
+                        <br>";
+
                         $a = $a + 1;
                     }
                     ?>
+
                 </div>
 
                 <!-- Estadisticas -->
@@ -115,9 +142,8 @@ $result_comentarios = mysqli_query($conn, $query_historias);
                     <div class="stats-section">
                         <h5>Estadísticas</h5>
                         <p>Denuncias recibidas este mes: <?php echo $a; ?></p>
-                        <p>Denuncias en seguimiento: 80</p>
+                        <p>Denuncias totales: <?php echo $cantidad ?></p>
                     </div>
-
 
                 </div>
             </div>
@@ -135,8 +161,13 @@ $result_comentarios = mysqli_query($conn, $query_historias);
 
                         console.log("Latitud:", lat, "Longitud:", longitude);
 
+                        // Elegir una imagen al azar
+                        var numeroRandom = Math.floor(Math.random()*6) + 1;
+                        var image = '../img/users/foto' + numeroRandom +'.jpg';
 
                         // Insertar en los inputs hidden
+                        document.getElementById('img').value = image;
+
                         document.getElementById('lat').value = lat;
                         document.getElementById('longitude').value = longitude;
 
