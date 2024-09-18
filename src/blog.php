@@ -1,6 +1,5 @@
 <?php
 include("../db/conection.php");
-
 // Obtener las historias del ultimo mes
 $query_historias = "SELECT * FROM historias WHERE fecha >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)";
 $result = mysqli_query($conn, $query_historias);
@@ -96,14 +95,14 @@ $cantidad = $result_total->fetch_row()[0];
                         // Mostrar las historias
                         echo "<div class=\"post\">
                         <div class=\"post-header d-flex align-items-center\">
-                            <img class=\"custom-img-perfil\" src=".$row["img"]." alt=\"Photo\">
+                            <img class=\"custom-img-perfil\" src=" . $row["img"] . " alt=\"Photo\">
                             <div class=\"ms-3\">
                                 <h5 class=\"m-0\">" . $row["fecha"] . "</h5>
                                 <small>Mujer Segura</small>
                             </div>
                         </div>";
-                            echo "<p class=\"mt-3\">" . $row["historia"] . "</p>";
-                            echo "<div class=\"d-flex justify-content-between\">
+                        echo "<p class=\"mt-3\">" . $row["historia"] . "</p>";
+                        echo "<div class=\"d-flex justify-content-between\">
                         <div>
                             <!--<button class=\"btn btn-dark btn-sm\">0 👍</button>
                             <button class=\"btn btn-dark btn-sm\">+ 😄</button>-->
@@ -115,9 +114,9 @@ $cantidad = $result_total->fetch_row()[0];
                         $query_comentarios_list = "SELECT comentario FROM comentarios WHERE id_historia = $id_historia";
                         $result_comentarios_list = mysqli_query($conn, $query_comentarios_list);
                         echo "<p>";
-                            while ($row_comentarios = mysqli_fetch_assoc($result_comentarios_list)) {
-                                echo $row_comentarios['comentario'] . "<br>";
-                            }
+                        while ($row_comentarios = mysqli_fetch_assoc($result_comentarios_list)) {
+                            echo $row_comentarios['comentario'] . "<br>";
+                        }
                         echo "</p>";
 
                         // Formulario de comentario
@@ -162,10 +161,10 @@ $cantidad = $result_total->fetch_row()[0];
                         console.log("Latitud:", lat, "Longitud:", longitude);
 
                         // Elegir una imagen al azar
-                        var numeroRandom = Math.floor(Math.random()*6) + 1;
-                        var image = '../img/users/foto' + numeroRandom +'.jpg';
+                        var numeroRandom = Math.floor(Math.random() * 6) + 1;
+                        var image = '../img/users/foto' + numeroRandom + '.jpg';
 
-                        // Insertar en los inputs hidden
+                        // Insertar en los inputs hidden 
                         document.getElementById('img').value = image;
 
                         document.getElementById('lat').value = lat;
@@ -179,13 +178,23 @@ $cantidad = $result_total->fetch_row()[0];
                                 headers: {
                                     "Content-Type": "application/x-www-form-urlencoded"
                                 },
-                                body: "lat=" + lat + "&longitude=" + longitude
-
+                                body: "lat=" + encodeURIComponent(lat) + "&longitude=" + encodeURIComponent(longitude)
                             })
-                            .then(response => response.text())
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('Error en la respuesta del servidor');
+                                }
+                                return response.json(); // Parsear la respuesta JSON
+                            })
                             .then(data => {
                                 console.log(data);
+                                if (data.status === 'alert') {
+                                    alert(data.message); // Mostrar la alerta con el mensaje del servidor
+                                }
                             })
+                            .catch(error => {
+                                console.error('Error al enviar las coordenadas:', error);
+                            });
 
 
                     }, function(error) {

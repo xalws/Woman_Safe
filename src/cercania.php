@@ -32,11 +32,15 @@ if (isset($_POST['lat']) && isset($_POST['longitude'])) {
         $distancia = haversine($lat1, $lon1, $lat_h, $lon_h);
 
         if ($distancia <= 1) {
-            echo "<script>alert('Cuidado, hubo un accidente cerca de ti este mes.');</script>";
+            $cerca = true;
             break;
-        } else {
-            echo "no";
         }
+    }
+
+    if ($cerca) {
+        echo json_encode(['status' => 'alert', 'message' => 'Cuidado, estás cerca de una denuncia reciente.']);
+    } else {
+        echo json_encode(['status' => 'ok', 'message' => 'No hay coordenadas cercanas.']);
     }
 }
 
