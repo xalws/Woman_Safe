@@ -3,36 +3,41 @@ include("conection.php");
 
 // Extraer datos del formulario
 $historia = $_POST["historia"];
-$lat = $_POST['lat'];
-$longitude = $_POST['longitude'];
-$img = $_POST['img'];
+$direccion = $_POST['direccion'];
+$categoria = $_POST['categoria'];
+$fecha = $_POST['fecha'];
 
-// Zona Horaria
+// Fecha
 date_default_timezone_set('America/Chihuahua');
+$fecha_denuncia = date('Y-m-d');
 
-// Fecha y hora
-$fecha = date('Y-m-d');
-$hora = date('H:i:s');
-
-if(empty($historia)){
+if(empty($historia) || empty($direccion) || empty($fecha)){
     echo "
         <script>
-            alert(\"No se puede insertar una historia vacia\");
+            alert(\"Se deben llenar todos los campos\");
             setTimeout(function() {
-                window.location.href = '../src/blog.php';
+                window.location.href = '../src/denunciar.php';
             });
         </script>
     ";
 }else{
     // Insertar los datos 
-    $query = "INSERT INTO historias 
-    (historia, fecha, hora, lat, longitude, img) 
-    VALUES ('$historia', '$fecha', '$hora', '$lat', '$longitude', '$img')";
+    $query = "INSERT INTO denuncias 
+    (historia, direccion, categoria, fecha, fecha_denuncia) 
+    VALUES ('$historia', '$direccion', '$categoria', '$fecha', '$fecha_denuncia')";
 
     mysqli_query($conn, $query);
 
     // Redireccionar
-    header('Location: ../src/blog.php');
+    //header('Location: ../src/denunciar.php');
+    echo "
+        <script>
+            alert(\"Se ha enviado la denuncia. No estas sola\");
+            setTimeout(function() {
+                window.location.href = '../src/denunciar.php';
+            });
+        </script>
+    ";
     exit;
 }
 ?>

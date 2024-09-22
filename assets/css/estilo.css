@@ -1,0 +1,212 @@
+/*FONTS*/
+
+@import url(../css/clash-display.css);
+
+/*VARIABLES*/
+
+:root {
+    --c-dark: #212529;
+    --c-brand: #4e57d4;
+    --c-brand-light: #4e57d4;
+    --c-brand-rgd: 78, 87, 212;
+    --c-body: #727272;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shandow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+}
+
+
+/* RESET Y HELPERS*/
+
+body {
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-body);
+}
+
+.body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand-light);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.theme-shadow {
+    box-shadow: var(--box-shandow);
+}
+
+
+/* NAVBAR*/
+
+.navbar {
+    box-shadow: var(--box-shandow);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(#4c0cd6);
+}
+
+
+/* BTN*/
+
+.btn {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-brand {
+    background-color: var(--c-brand);
+    border-color: var(--c-body);
+    color: white;
+}
+
+.btn-add{
+    background-color: var(--c-brand);
+    border-color: var(--c-body);
+    color: white;
+}
+
+.btn-brand:hover {
+    transition: 0.5s;
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+#hero {
+    background: linear-gradient( rgba(var(--c-brand-rgd), 0.507), rgba(0, 0, 0, 0.438)), url(../img/domestic-violence-7662946_1280.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*SECCION DEL TITULO*/
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(var(--c-brand-rgd), 0.1);
+    color: var(--c-brand);
+    font-size: 34px;
+    flex: none;
+}
+
+
+/*AYUDA*/
+
+.ayuda {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.ayuda::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: rgb(var(--c-brand-rgd), 0.2);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: var(--transition);
+}
+
+.ayuda:hover::after {
+    width: 100%;
+    height: 100%;
+    background: var(--c-brand);
+    z-index: -1;
+}
+
+.ayuda:hover h5,
+.ayuda:hover p {
+    color: white;
+}
+
+.ayuda:hover .iconbox {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/*Denuncias*/
+.labels{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.select-custom{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Mapa*/
+#map_e{
+    height: 100vh;
+    width: 100%;
+}

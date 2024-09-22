@@ -11,7 +11,7 @@ if (empty($comentario)){
         <script>
             alert('No se puede agregar un comentario vacio');
             setTimeout(function() {
-                window.location.href = '../src/blog.php';
+                window.location.href = '../src/denunciar.php';
             });
         </script>
     ";
@@ -26,7 +26,7 @@ if (empty($comentario)){
     mysqli_query($conn, $query);
 
     // Redireccionar
-    header('Location: ../src/blog.php');
+    header('Location: ../src/denunciar.php');
     exit;
 }
 
