@@ -1,0 +1,88 @@
+/*FONTS*/
+
+@import url(../../assets/css/clash-display.css);
+
+/*VARIABLES*/
+
+:root {
+    --c-dark: #212529;
+    --c-brand: #4e57d4;
+    --c-brand-light: #4e57d4;
+    --c-brand-rgd: 78, 87, 212;
+    --c-body: #727272;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shandow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    background-color: #a64dc1aa;
+    color: #04171d;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: var(--font-base);
+}
+
+.navbar {
+    box-shadow: var(--box-shandow);
+}
+
+.nav-item{
+    font-family: var(--font-base);
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    color: #04171d;
+    font-weight: bold;
+}
+
+.container_tabla {
+    background-color: rgba(240, 248, 255, 0.479);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 5%;
+}
+
+.tabla-son {
+    width: 100%;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+table {
+    width: 250px;
+    table-layout: fixed;
+}
+
+td {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+th,
+td {
+    width: 100px;
+    word-wrap: break-word;
+    padding: 25px;
+}
+
+@media only screen and (max-width:750px) {
+    th,
+    td {
+        width: 90px;
+        padding: 15px;
+    }
+}

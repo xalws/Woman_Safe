@@ -1,0 +1,747 @@
+12 de Julio Latitud 31.633037 Longitud -106.473553
+15 de Enero Latitud 31.677179 Longitud -106.412617
+15 de Mayo Latitud 25.648136 Longitud -100.107620
+16 de Septiembre Latitud 31.738779 Longitud -106.476119
+1 de Mayo Latitud 31.733330 Longitud -106.483330
+1 de Septiembre Latitud 31.733330 Longitud -106.483330
+1 de Septiembre Ampliación Latitud 31.733330 Longitud -106.483330
+2da. Burócrata Latitud 31.733330 Longitud -106.483330
+3 Jacales Latitud 31.733330 Longitud -106.483330
+3ra. Burócrata Latitud 31.733330 Longitud -106.483330
+5 de Mayo Latitud 31.733330 Longitud -106.483330
+6 de Enero Latitud 31.733330 Longitud -106.483330
+6 de Mayo Latitud 31.733330 Longitud -106.483330
+9 de Septiembre (CDP) Latitud 31.733330 Longitud -106.483330
+Acacias Latitud 31.73944 Longitud -106.48694
+Acequias del Sur Latitud 31.69123 Longitud -106.42205
+Adolfo López Mateos Latitud 28.67722 Longitud -106.08639
+Adriana Latitud 31.73333 Longitud -106.48333
+Aeropuerto Latitud 31.63639 Longitud -106.42861
+Aeropuerto Ampliación Latitud 31.63639 Longitud -106.42861
+Agrícola Emiliano Zapata Latitud 31.73333 Longitud -106.48333
+Águilas Latitud 31.73333 Longitud -106.48333
+Águilas de Zaragoza Latitud 31.73333 Longitud -106.48333
+Águilas de Zaragoza (IVIECH) Latitud 31.73333 Longitud -106.48333
+Agustín Melgar Latitud 31.73333 Longitud -106.48333
+Alameda Latitud 31.73333 Longitud -106.48333
+Álamos de San Lorenzo Latitud 31.73333 Longitud -106.48333
+Álamos de Senecu Latitud 31.73333 Longitud -106.48333
+Alcázar I (Capri) Latitud 31.73333 Longitud -106.48333
+Alcázar II (Capri) Latitud 31.73333 Longitud -106.48333
+Alfa Latitud 31.73333 Longitud -106.48333
+Alondra Latitud 31.73333 Longitud -106.48333
+Altamira Latitud 31.73333 Longitud -106.48333
+Altavista Latitud 31.73333 Longitud -106.48333
+Álvaro Obregón Latitud 31.73333 Longitud -106.48333
+Amanda Latitud 31.73333 Longitud -106.48333
+Americano Latitud 31.73333 Longitud -106.48333
+Américas Latitud 31.73333 Longitud -106.48333
+Anáhuac Latitud 31.73333 Longitud -106.48333
+Andrea Latitud 31.73333 Longitud -106.48333
+Andrés Figueroa Latitud 31.73333 Longitud -106.48333
+Anglia Residencial Latitud 31.73333 Longitud -106.48333
+Anita Latitud 31.73333 Longitud -106.48333
+Antares Latitud 31.73333 Longitud -106.48333
+Anzures Latitud 31.73333 Longitud -106.48333
+Arboleda Latitud 31.73333 Longitud -106.48333
+Arboleda San Fernando Latitud 31.73333 Longitud -106.48333
+Arboledas de Senecu Latitud 31.73333 Longitud -106.48333
+Arciniega Latitud 31.73333 Longitud -106.48333
+Arcoíris Latitud 31.73333 Longitud -106.48333
+Arecco Latitud 31.73333 Longitud -106.48333
+Arroyo Colorado Latitud 31.73333 Longitud -106.48333
+Arroyo del Paraíso Latitud 31.73333 Longitud -106.48333
+Arturo Gámiz Latitud 31.73333 Longitud -106.48333
+Asturias Latitud 31.73333 Longitud -106.48333
+Atenas Latitud 31.73333 Longitud -106.48333
+Atenas II Latitud 31.73333 Longitud -106.48333
+Aurora Latitud 31.73333 Longitud -106.48333
+Aviñón Latitud 31.73333 Longitud -106.48333
+Azteca Latitud 31.73333 Longitud -106.48333
+Banús 360 Latitud 31.73944 Longitud -106.48694
+Barrio Alto Latitud 31.73545 Longitud -106.48303
+Barrio Azul Latitud 31.73545 Longitud -106.48303
+Barrio Hierro Latitud 31.73901 Longitud -106.42159
+Barrio Nuevo Latitud 31.61212 Longitud -106.58203
+Bella Provincia Latitud 31.73333 Longitud -106.48333
+Bella Vista Latitud 31.73333 Longitud -106.48333
+Bello Horizonte Latitud 31.73333 Longitud -106.48333
+Benito Juárez Latitud 31.73333 Longitud -106.48333
+Bilbao Latitud 31.73333 Longitud -106.48333
+Boca del Río Latitud 31.73333 Longitud -106.48333
+Bonanza Residencial Latitud 31.73333 Longitud -106.48333
+Bosque Bonito Latitud 31.73333 Longitud -106.48333
+Bosques del Sol Latitud 31.73333 Longitud -106.48333
+Bosques del Valle Latitud 31.73333 Longitud -106.48333
+Bosques de Maple Latitud 31.73333 Longitud -106.48333
+Bosques de Salvarcar Latitud 31.73333 Longitud -106.48333
+Bosques de San José Latitud 31.73333 Longitud -106.48333
+Bosques de Santa Fe Latitud 31.73333 Longitud -106.48333
+Bosques de Senecu Latitud 31.73333 Longitud -106.48333
+Bosques de Sicomoro Latitud 31.73333 Longitud -106.48333
+Bosques de Waterfill Latitud 31.73333 Longitud -106.48333
+Bosques Residencial Latitud 31.73333 Longitud -106.48333
+Britania Latitud 31.73333 Longitud -106.48333
+Buendía Latitud 31.73333 Longitud -106.48333
+Buenos Aires Latitud 31.73333 Longitud -106.48333
+Bugambilias Latitud 31.73333 Longitud -106.48333
+Burócrata Latitud 31.73333 Longitud -106.48333
+Burócrata Municipal Latitud 31.73333 Longitud -106.48333
+Calzada del Sol Latitud 31.70482 Longitud -106.38526
+Camino Real Latitud 31.69091 Longitud -106.42288
+Campestre Latitud 31.73333 Longitud -106.48333
+Campestre Ampliación Latitud 31.73545 Longitud -106.48303
+Campestre Arboleda Latitud 31.74007 Longitud -106.39983
+Campestre las Palmas Latitud 31.73333 Longitud -106.48333
+Campestre María Isabel Latitud 31.73333 Longitud -106.48333
+Campestre San Marcos Latitud 31.73333 Longitud -106.48333
+Campestre Sur Latitud 31.73333 Longitud -106.48333
+Campestre Virreyes Latitud 31.73333 Longitud -106.48333
+Campos Elíseos Latitud 31.73333 Longitud -106.48333
+Canto de Calabria Latitud 31.73333 Longitud -106.48333
+Canto de Catania Latitud 31.73333 Longitud -106.48333
+Canto de Murano Latitud 31.73333 Longitud -106.48333
+Canto de Toscana Latitud 31.73333 Longitud -106.48333
+Capistrano Latitud 31.73333 Longitud -106.48333
+Carlos Castillo Peraza Latitud 31.73333 Longitud -106.48333
+Carlos Chavira Becerra Latitud 31.73333 Longitud -106.48333
+Casitas de Satélite Latitud 31.73333 Longitud -106.48333
+Catalán Latitud 31.73333 Longitud -106.48333
+Cazadores Juarenses Latitud 31.73333 Longitud -106.48333
+Centro Latitud 31.73333 Longitud -106.48333
+Centro Industrial Juárez Latitud 31.73333 Longitud -106.48333
+CERESO y Ciudad Militar Latitud 31.73333 Longitud -106.48333
+Cerrada Abedul Latitud 31.73333 Longitud -106.48333
+Cerrada Andaluz Latitud 31.73333 Longitud -106.48333
+Cerrada Arboledas Latitud 31.73333 Longitud -106.48333
+Cerrada Basalto Latitud 31.73333 Longitud -106.48333
+Cerrada de los Cipreses Latitud 31.73333 Longitud -106.48333
+Cerrada del Sol Latitud 31.73333 Longitud -106.48333
+Cerrada del Valle Latitud 31.73333 Longitud -106.48333
+Cerrada de Tarso Latitud 31.73333 Longitud -106.48333
+Cerrada los Olivos Latitud 31.73333 Longitud -106.48333
+Cerradas de Oriente I Latitud 31.73333 Longitud -106.48333
+Cerradas de Oriente II Latitud 31.73333 Longitud -106.48333
+Cerrada Viñedos Latitud 31.73333 Longitud -106.48333
+Chamizal Latitud 31.73333 Longitud -106.48333
+Chaveña Latitud 31.73333 Longitud -106.48333
+Chávez-Vargas Latitud 31.73333 Longitud -106.48333
+Che Guevara Latitud 31.73333 Longitud -106.48333
+Chihuahua Latitud 31.73333 Longitud -106.48333
+Cibeles Latitud 31.73333 Longitud -106.48333
+Cielo Vista Latitud 31.73333 Longitud -106.48333
+Ciudad Juárez (Abraham González) Latitud 31.73333 Longitud -106.48333
+Ciudad Moderna Latitud 31.73333 Longitud -106.48333
+Ciudad Río Bravo Latitud 31.73333 Longitud -106.48333
+Colegio Latitud 31.73333 Longitud -106.48333
+Colinas de Juárez Latitud 31.73333 Longitud -106.48333
+Colinas del Desierto Latitud 31.73333 Longitud -106.48333
+Colinas del Norte Latitud 31.73333 Longitud -106.48333
+Colinas del Sol Latitud 31.73333 Longitud -106.48333
+Colinas del Sur Latitud 31.73333 Longitud -106.48333
+Colonial Latitud 31.73333 Longitud -106.48333
+Del Agua Latitud 31.71272 Longitud -106.41924
+Del Bravo Latitud 31.62972 Longitud -106.40583
+Del Carmen Latitud 31.73333 Longitud -106.48333
+Del Encino Latitud 31.73333 Longitud -106.48333
+Del Futuro Latitud 31.73333 Longitud -106.48333
+Del Maestro Latitud 31.73333 Longitud -106.48333
+Del Maestro (Deportiva) Latitud 31.73333 Longitud -106.48333
+Del Márquez Latitud 31.73333 Longitud -106.48333
+Del Norte Latitud 31.73333 Longitud -106.48333
+De los Mecánicos Latitud 31.73333 Longitud -106.48333
+Del Palmar Latitud 31.73333 Longitud -106.48333
+Del Real Latitud 31.73333 Longitud -106.48333
+Del Safari 1 Latitud 31.73333 Longitud -106.48333
+Del Solar Latitud 31.73333 Longitud -106.48333
+Del Valle Latitud 31.73333 Longitud -106.48333
+Demetrio Flores Latitud 31.73333 Longitud -106.48333
+Desarrollo Salvacar Latitud 31.73333 Longitud -106.48333
+Dinamarca Latitud 31.73333 Longitud -106.48333
+Distrito Soho Latitud 31.73333 Longitud -106.48333
+División del Norte Latitud 31.73333 Longitud -106.48333
+Don Julio Latitud 31.73333 Longitud -106.48333
+Dunas Residencial Latitud 31.73333 Longitud -106.48333
+Durango Latitud 31.73333 Longitud -106.48333
+Eco 2000 Latitud 31.63554 Longitud -106.38123
+Edificio Cartagena Latitud 31.73333 Longitud -106.48333
+Educación Latitud 31.73333 Longitud -106.48333
+Ejido Sauzal Latitud 31.73545 Longitud -106.48303
+El Barreal Latitud 31.73333 Longitud -106.48333
+El Campanario Latitud 31.73333 Longitud -106.48333
+El Campanario 4 Siglos Latitud 31.73333 Longitud -106.48333
+El Cid Latitud 31.73333 Longitud -106.48333
+El Dorado Latitud 31.73333 Longitud -106.48333
+Electricistas Latitud 31.73333 Longitud -106.48333
+El Fortín Latitud 31.73333 Longitud -106.48333
+El Granjero (Pie de Casa) Latitud 31.73333 Longitud -106.48333
+El Mármol Latitud 31.73333 Longitud -106.48333
+El Mezquital Latitud 31.73333 Longitud -106.48333
+El Millón Latitud 31.73333 Longitud -106.48333
+El Papalote Latitud 31.73333 Longitud -106.48333
+El Paraíso Latitud 31.73333 Longitud -106.48333
+El Paseo Latitud 31.73333 Longitud -106.48333
+El Pensamiento Latitud 31.73333 Longitud -106.48333
+El Portal Latitud 31.73333 Longitud -106.48333
+El Roble Latitud 31.73333 Longitud -106.48333
+El Sauzal Latitud 31.73333 Longitud -106.48333
+El Vergel Latitud 31.73333 Longitud -106.48333
+Emiliano Zapata Latitud 31.73333 Longitud -106.48333
+Era del Valle Latitud 31.73333 Longitud -106.48333
+Era de San Lorenzo Latitud 31.73333 Longitud -106.48333
+Erendira Latitud 31.73333 Longitud -106.48333
+Estación Mendez Latitud 31.73333 Longitud -106.48333
+Estrella del Poniente Latitud 31.73333 Longitud -106.48333
+Excelencia Latitud 31.73333 Longitud -106.48333
+Ex Hipódromo Latitud 31.73333 Longitud -106.48333
+Felipe Ángeles Latitud 31.75807 Longitud -106.52081
+Felipe Ángeles Ampliación Latitud 31.75807 Longitud -106.52081
+Fernando Baeza M. Latitud 31.75807 Longitud -106.52081
+Fidel Avila Latitud 31.68542 Longitud -106.37080
+Florecillas Latitud 31.73333 Longitud -106.48333
+Florencia Latitud 31.73333 Longitud -106.48333
+Floresta Latitud 31.73333 Longitud -106.48333
+Floresta de San José Latitud 31.73333 Longitud -106.48333
+Fovissste Chamizal Latitud 31.73333 Longitud -106.48333
+FOVISSSTE Sur Latitud 31.73333 Longitud -106.48333
+Foxconn Latitud 31.73333 Longitud -106.48333
+Francisco I. Madero Latitud 31.73333 Longitud -106.48333
+Francisco Sarabia Latitud 31.73333 Longitud -106.48333
+Francisco Villa Latitud 31.73333 Longitud -106.48333
+Franja del Río Latitud 31.73333 Longitud -106.48333
+Fray Garcia de San Francisco Latitud 31.73333 Longitud -106.48333
+Frida Khalo Latitud 31.73333 Longitud -106.48333
+Frontera Latitud 31.73333 Longitud -106.48333
+Fronteriza Latitud 31.73333 Longitud -106.48333
+Fronteriza Ampliación Latitud 31.73333 Longitud -106.48333
+Fuentes Copilco Latitud 31.73333 Longitud -106.48333
+Fuentes de los Nogales Latitud 31.73333 Longitud -106.48333
+Fuentes del Seminario Latitud 31.73333 Longitud -106.48333
+Fuentes del Valle Latitud 31.73333 Longitud -106.48333
+Fundidora Latitud 31.73333 Longitud -106.48333
+Gaby Latitud 31.73333 Longitud -106.48333
+Gardeno Latitud 31.67024 Longitud -106.38966
+Génova Latitud 31.73333 Longitud -106.48333
+Girasoles Latitud 31.73149 Longitud -106.43250
+Granada Latitud 31.73333 Longitud -106.48333
+Granjas de Chapultepec Latitud 31.73333 Longitud -106.48333
+Granjas del Desierto Latitud 31.73333 Longitud -106.48333
+Granjas de San Rafael Latitud 31.73333 Longitud -106.48333
+Granjas El Progreso Latitud 31.73333 Longitud -106.48333
+Granjas los Alcaldes Latitud 31.73333 Longitud -106.48333
+Granjas Polo Gamboa Latitud 31.73333 Longitud -106.48333
+Granjas San Rafael Latitud 31.73333 Longitud -106.48333
+Granjas Santa Elena Latitud 31.73333 Longitud -106.48333
+Granjas Unidas Latitud 31.73333 Longitud -106.48333
+Granjero Latitud 31.73333 Longitud -106.48333
+Gregorio M. Solís Latitud 31.73333 Longitud -106.48333
+Guadalajara Latitud 31.73333 Longitud -106.48333
+Gustavo Diaz Ordaz Latitud 31.73333 Longitud -106.48333
+Habitad del Río Latitud 31.73545 Longitud -106.48303
+Hacienda Latitud 31.73333 Longitud -106.48333
+Hacienda de Aragón Latitud 31.73333 Longitud -106.48333
+Hacienda de La Paloma Latitud 31.69284 Longitud -106.39108
+Hacienda de las Torres Latitud 31.63051 Longitud -106.44639
+Hacienda de las Torres Universidad Latitud 31.73333 Longitud -106.48333
+Hacienda de las Torres XII - XIII Latitud 31.73333 Longitud -106.48333
+Hacienda de los Nogales Latitud 31.73333 Longitud -106.48333
+Hacienda del Rosario Latitud 31.73333 Longitud -106.48333
+Hacienda del Sáuz Latitud 31.73333 Longitud -106.48333
+Hacienda del Sol Latitud 31.73333 Longitud -106.48333
+Hacienda de San Francisco Latitud 31.73333 Longitud -106.48333
+Hacienda de San Pedro Latitud 31.73333 Longitud -106.48333
+Hacienda Giralda Latitud 31.73333 Longitud -106.48333
+Hacienda La Cantera Latitud 31.73333 Longitud -106.48333
+Hacienda las Lajas Latitud 31.73333 Longitud -106.48333
+Hacienda Residencial Latitud 31.73333 Longitud -106.48333
+Hacienda San Antonio Latitud 31.73333 Longitud -106.48333
+Hacienda San José Latitud 31.73333 Longitud -106.48333
+Hacienda San Juan Latitud 31.73333 Longitud -106.48333
+Hacienda San Paulo Latitud 31.73333 Longitud -106.48333
+Hacienda Santa Fe Latitud 31.73333 Longitud -106.48333
+Haciendas del Campanario Latitud 31.73333 Longitud -106.48333
+Hacienda Senecu Latitud 31.73333 Longitud -106.48333
+Harmoni Latitud 31.73333 Longitud -106.48333
+Hermenegildo Galeana Latitud 31.73333 Longitud -106.48333
+Hermila Latitud 31.73333 Longitud -106.48333
+Héroes de La Revolución Latitud 31.73333 Longitud -106.48333
+Héroes de México Latitud 31.73333 Longitud -106.48333
+Hidalgo Latitud 31.73333 Longitud -106.48333
+Holanda Latitud 31.73333 Longitud -106.48333
+Horizontes del Sur Latitud 31.73333 Longitud -106.48333
+Ignacio Aldama Latitud 31.73309 Longitud -106.49554
+Ignacio Allende Latitud 31.73333 Longitud -106.48333
+Independencia II Latitud 31.73333 Longitud -106.48333
+Independencia Sur Latitud 31.73333 Longitud -106.48333
+Industrial Latitud 31.68152 Longitud -106.44373
+INFONAVIT Ampliación Aeropuerto Latitud 31.73333 Longitud -106.48333
+INFONAVIT Ángel Trías Latitud 31.73333 Longitud -106.48333
+INFONAVIT Casas Grandes Latitud 31.73333 Longitud -106.48333
+INFONAVIT El Jarudo Latitud 31.73333 Longitud -106.48333
+INFONAVIT Fidel Velázquez Latitud 31.73333 Longitud -106.48333
+INFONAVIT Juárez Nuevo Latitud 31.73333 Longitud -106.48333
+INFONAVIT Mil Cumbres Latitud 31.73333 Longitud -106.48333
+INFONAVIT Oasis Latitud 31.73333 Longitud -106.48333
+INFONAVIT Parques Industriales Latitud 31.73333 Longitud -106.48333
+INFONAVIT Salvarcar Latitud 31.73333 Longitud -106.48333
+INFONAVIT San Lorenzo Latitud 31.73333 Longitud -106.48333
+INFONAVIT Solidaridad Latitud 31.73333 Longitud -106.48333
+INFONAVIT Tecnológico Latitud 31.73333 Longitud -106.48333
+Ingeniero Portillo Latitud 31.73333 Longitud -106.48333
+Instituto de Ciencias Biomedicas (ICB) Latitud 31.73333 Longitud -106.48333
+Instituto de Ingeniería y Arquitectura (IIT/IADA) Latitud 31.73333 Longitud -106.48333
+Insurgentes Latitud 31.73333 Longitud -106.48333
+Isla del Encanto Latitud 31.73333 Longitud -106.48333
+Ixtapa Latitud 31.73333 Longitud -106.48333
+Jardín Latitud 31.73333 Longitud -106.48333
+Jardín de las Moras Latitud 31.73333 Longitud -106.48333
+Jardín de Senecu Latitud 31.73333 Longitud -106.48333
+Jardines Campestre Latitud 31.73333 Longitud -106.48333
+Jardines de Aragón Latitud 31.73333 Longitud -106.48333
+Jardines de Coyoacan Latitud 31.73333 Longitud -106.48333
+Jardines del Aeropuerto Latitud 31.73333 Longitud -106.48333
+Jardines del Bosque Latitud 31.73333 Longitud -106.48333
+Jardines del Lago Latitud 31.73333 Longitud -106.48333
+Jardines del Seminario Latitud 31.73333 Longitud -106.48333
+Jardines del Valle Latitud 31.73333 Longitud -106.48333
+Jardines del Valle I Latitud 31.73333 Longitud -106.48333
+Jardines del Valle II Latitud 31.73333 Longitud -106.48333
+Jardines del Valle III Latitud 31.73333 Longitud -106.48333
+Jardines de Roma Latitud 31.73333 Longitud -106.48333
+Jardines de San Carlos Latitud 31.73333 Longitud -106.48333
+Jardines de San Francisco Latitud 31.73333 Longitud -106.48333
+Jardines de San José Latitud 31.73333 Longitud -106.48333
+Jardines de San Marcos Latitud 31.73333 Longitud -106.48333
+Jardines de San Miguel Latitud 31.73333 Longitud -106.48333
+Jardines de San Pablo Latitud 31.73333 Longitud -106.48333
+Jardines de San Patricio Latitud 31.73333 Longitud -106.48333
+Jardines de Santa Clara Latitud 31.73333 Longitud -106.48333
+Jardines de Santa Mónica Latitud 31.73333 Longitud -106.48333
+Jardines de Satélite Latitud 31.73333 Longitud -106.48333
+Jardines Residencial Latitud 31.73333 Longitud -106.48333
+Jardines Senecu Latitud 31.73333 Longitud -106.48333
+Jarudo Latitud 31.73333 Longitud -106.48333
+Jasso Latitud 31.73333 Longitud -106.48333
+Jazmines Latitud 31.73333 Longitud -106.48333
+Jesús Carranza (La Colorada) Latitud 31.63558 Longitud -106.34219
+Josefa Ortiz de Domínguez Latitud 31.73333 Longitud -106.48333
+José María Pino Suárez Latitud 31.73333 Longitud -106.48333
+José Martí Latitud 31.73333 Longitud -106.48333
+Juárez Latitud 31.73333 Longitud -106.48333
+Kilómetro 20 Latitud 31.73333 Longitud -106.48333
+Kilómetro 20 José María Latitud 31.73333 Longitud -106.48333
+Kilómetro 27 Latitud 31.73333 Longitud -106.48333
+Kilómetro 28 Latitud 31.73333 Longitud -106.48333
+Kilómetro 29 Latitud 31.73333 Longitud -106.48333
+Kilómetro 5 Latitud 31.73333 Longitud -106.48333
+La Campesina Latitud 31.73333 Longitud -106.48333
+La Cañada Latitud 31.73333 Longitud -106.48333
+La Cementera Latitud 31.73333 Longitud -106.48333
+La Conquista Latitud 31.73333 Longitud -106.48333
+La Cuesta Latitud 31.73333 Longitud -106.48333
+La Cuesta II Latitud 31.73333 Longitud -106.48333
+Ladrillera Juárez Latitud 31.73333 Longitud -106.48333
+Ladrillera Juárez Ampliación Latitud 31.73333 Longitud -106.48333
+Ladrilleros y Caleros Latitud 31.73333 Longitud -106.48333
+La Florida Latitud 31.73333 Longitud -106.48333
+La Fortuna Latitud 31.73333 Longitud -106.48333
+La Fuente Latitud 31.73333 Longitud -106.48333
+La Galeanita Latitud 31.73333 Longitud -106.48333
+La Gaviota Latitud 31.73333 Longitud -106.48333
+La Gran Manzana Latitud 31.73333 Longitud -106.48333
+La Hacienda Latitud 31.73333 Longitud -106.48333
+La Herradura Latitud 31.73333 Longitud -106.48333
+La Joya Latitud 31.73333 Longitud -106.48333
+La Mesita Latitud 31.73333 Longitud -106.48333
+La Moraleja Latitud 31.73333 Longitud -106.48333
+La Muralla Latitud 31.73333 Longitud -106.48333
+La Nueva Rosita Latitud 31.73333 Longitud -106.48333
+La Paloma Latitud 31.73333 Longitud -106.48333
+La Parcela Latitud 31.73333 Longitud -106.48333
+La Parroquia Latitud 31.73333 Longitud -106.48333
+La Perla Latitud 31.73333 Longitud -106.48333
+La Playa Latitud 31.73333 Longitud -106.48333
+La Presa Latitud 31.73333 Longitud -106.48333
+La Raza Latitud 31.73333 Longitud -106.48333
+La Rivera Latitud 31.73333 Longitud -106.48333
+La Rosaleda Latitud 31.73333 Longitud -106.48333
+La Rosita Latitud 31.73333 Longitud -106.48333
+Las Acequias Latitud 31.73333 Longitud -106.48333
+Las Aldabas Latitud 31.73333 Longitud -106.48333
+Las Almeras Latitud 31.73333 Longitud -106.48333
+Las Arcadas Latitud 31.73333 Longitud -106.48333
+Las Arenas Latitud 31.73333 Longitud -106.48333
+Las Arenas 2 Latitud 31.73333 Longitud -106.48333
+La Sarzana Latitud 31.73333 Longitud -106.48333
+Las Dunas Latitud 31.73333 Longitud -106.48333
+Las Flores Latitud 31.73333 Longitud -106.48333
+Las Garzas Latitud 31.73333 Longitud -106.48333
+Las Gladiolas Latitud 31.73333 Longitud -106.48333
+Las Haciendas Latitud 31.73333 Longitud -106.48333
+Las Haciendas Oriente Latitud 31.73333 Longitud -106.48333
+Las Hadas Latitud 31.73333 Longitud -106.48333
+Las Lomas Latitud 31.73333 Longitud -106.48333
+Las Lunas Latitud 31.73333 Longitud -106.48333
+Las Montañas Latitud 31.73333 Longitud -106.48333
+Las Nueces Latitud 31.73333 Longitud -106.48333
+Las Palmas Latitud 31.73333 Longitud -106.48333
+Las Palomas Latitud 31.73333 Longitud -106.48333
+Las Placitas I Latitud 31.73333 Longitud -106.48333
+Las Placitas II Latitud 31.73333 Longitud -106.48333
+Las Quintas Latitud 31.73333 Longitud -106.48333
+Las Torres I y II Latitud 31.73333 Longitud -106.48333
+Lausane Latitud 31.73333 Longitud -106.48333
+Lázaro Cárdenas Latitud 31.73333 Longitud -106.48333
+Lexmark Latitud 31.73333 Longitud -106.48333
+Leyes de Reforma Latitud 31.73333 Longitud -106.48333
+Libertad Latitud 31.73333 Longitud -106.48333
+Lince Latitud 31.73333 Longitud -106.48333
+Linda Vista Latitud 31.73333 Longitud -106.48333
+Lisboa Latitud 31.73333 Longitud -106.48333
+Loma Blanca Latitud 31.73333 Longitud -106.48333
+Loma Linda Latitud 31.73333 Longitud -106.48333
+Lomas del Desierto I Latitud 31.73333 Longitud -106.48333
+Lomas del Desierto II Latitud 31.73333 Longitud -106.48333
+Lomas del Desierto III Latitud 31.73333 Longitud -106.48333
+Lomas del Poleo Latitud 31.73333 Longitud -106.48333
+Lomas del Rey Latitud 31.73333 Longitud -106.48333
+Lomas del Valle Latitud 31.73333 Longitud -106.48333
+Lomas de Morelos Latitud 31.73333 Longitud -106.48333
+Lomas de San José Latitud 31.73333 Longitud -106.48333
+Los Agaves Latitud 31.73333 Longitud -106.48333
+Los Álamos Latitud 31.73333 Longitud -106.48333
+Los Alcaldes Ampliación Latitud 31.73333 Longitud -106.48333
+Los Alpes Latitud 31.73333 Longitud -106.48333
+Los Ángeles Latitud 31.73333 Longitud -106.48333
+Los Arcos Latitud 31.73333 Longitud -106.48333
+Los Bosques Latitud 31.73333 Longitud -106.48333
+Los Cardenales Latitud 31.73333 Longitud -106.48333
+Los Cedros Latitud 31.73333 Longitud -106.48333
+Los Cipreses Latitud 31.73333 Longitud -106.48333
+Los Cisnes Latitud 31.73333 Longitud -106.48333
+Los Colorines Latitud 31.73333 Longitud -106.48333
+Los Frayles Latitud 31.73333 Longitud -106.48333
+Los Fresnos Latitud 31.73333 Longitud -106.48333
+Los Girasoles Latitud 31.73333 Longitud -106.48333
+Los Jardines Latitud 31.73333 Longitud -106.48333
+Los Lagos Latitud 31.725 Longitud -106.439
+Los Laureles Latitud 31.73333 Longitud -106.48333
+Los Manantiales Latitud 31.73333 Longitud -106.48333
+Los Mezquites Latitud 31.6164 Longitud -106.4654
+Los Mirlos Latitud 31.6353 Longitud -106.4181
+Los Naranjos Latitud 31.73333 Longitud -106.48333
+Los Nogales Latitud 31.73333 Longitud -106.48333
+Los Olivos Latitud 31.73333 Longitud -106.48333
+Los Olmos Latitud 31.73333 Longitud -106.48333
+Los Olmos TEC Latitud 31.73333 Longitud -106.48333
+Los Parques Latitud 31.73333 Longitud -106.48333
+Los Pinos Latitud 31.73333 Longitud -106.48333
+Los Portales Latitud 31.73333 Longitud -106.48333
+Los Romerales Latitud 31.73333 Longitud -106.48333
+Los Sauces Latitud 31.73333 Longitud -106.48333
+Los Saúcos Latitud 31.73333 Longitud -106.48333
+Los Tulipanes Latitud 31.73333 Longitud -106.48333
+Los Virreyes Latitud 31.73333 Longitud -106.48333
+Los Volcanes Latitud 31.73333 Longitud -106.48333
+Lucio Blanco Latitud 31.73333 Longitud -106.48333
+Lucio Blanco II Latitud 31.73333 Longitud -106.48333
+Lucio Cabañas Latitud 31.73333 Longitud -106.48333
+Luis Donaldo Colosio Latitud 31.73333 Longitud -106.48333
+Luis Echeverría Latitud 31.73333 Longitud -106.48333
+Luis Olague Latitud 31.73333 Longitud -106.48333
+Maestros Estatales y Federales Latitud 31.73333 Longitud -106.48333
+Magisterial Latitud 31.73333 Longitud -106.48333
+Magnolia Latitud 31.73333 Longitud -106.48333
+Malaga Latitud 31.73333 Longitud -106.48333
+Manuel Gómez Morín Latitud 31.73333 Longitud -106.48333
+Manuel J. Clouthier Latitud 31.73333 Longitud -106.48333
+Manuel Valdez Latitud 31.73333 Longitud -106.48333
+Maquila Thomson Latitud 31.73333 Longitud -106.48333
+Margaritas Latitud 31.73333 Longitud -106.48333
+María Isabel Latitud 31.73333 Longitud -106.48333
+Mariano Escobedo Latitud 31.73333 Longitud -106.48333
+Marquis Latitud 31.73333 Longitud -106.48333
+Marruecos Latitud 31.73333 Longitud -106.48333
+Mascareñas Latitud 31.73333 Longitud -106.48333
+Mayas Sur Latitud 31.73333 Longitud -106.48333
+Mayorga Latitud 31.73333 Longitud -106.48333
+Medanos Latitud 31.73333 Longitud -106.48333
+Melchor Ocampo Latitud 31.73333 Longitud -106.48333
+México Latitud 31.73333 Longitud -106.48333
+México 68 Latitud 31.73333 Longitud -106.48333
+Miguel Auza Latitud 31.73333 Longitud -106.48333
+Miguel Enríquez Guzmán Latitud 31.73333 Longitud -106.48333
+Milán Latitud 31.73333 Longitud -106.48333
+Mil Cumbres Latitud 31.73333 Longitud -106.48333
+Minerva Latitud 31.73333 Longitud -106.48333
+Mirador Latitud 31.73333 Longitud -106.48333
+Misión de los Lagos Latitud 31.73333 Longitud -106.48333
+Misión del Sol Latitud 31.73333 Longitud -106.48333
+Misión de San Miguel Latitud 31.73333 Longitud -106.48333
+Misiones Latitud 31.73333 Longitud -106.48333
+Misiones de Creel Latitud 31.73333 Longitud -106.48333
+Misiones del Emir Latitud 31.705465 Longitud -106.408170
+Misiones del Portal Latitud 31.708205 Longitud -106.431975
+Misiones del Real Latitud 31.611045 Longitud -106.386623
+Misiones del Sur Residencial Latitud 31.611045 Longitud -106.386623
+Ramos Avilés Latitud 31.6900 Longitud -106.4200
+Rancho Anapra Latitud 31.7483 Longitud -106.5317
+Raúl Garcia Latitud 31.7200 Longitud -106.4500
+Real de Guadalupe Latitud 31.7000 Longitud -106.4300
+Real de las Torres Latitud 31.6800 Longitud -106.4200
+Real del Desierto Latitud 31.6700 Longitud -106.4100
+Real del Desierto II Latitud 31.6700 Longitud -106.4100
+Real del Sol Latitud 31.7100 Longitud -106.4400
+Real del Sol II Latitud 31.7100 Longitud -106.4400
+Real de San José Latitud 31.7200 Longitud -106.4500
+Real Waterfill Latitud 31.7300 Longitud -106.4600
+Reforma Latitud 31.7400 Longitud -106.4700
+Reginaldo Kluche Latitud 31.7500 Longitud -106.4800
+Renovación 92 Latitud 31.7600 Longitud -106.4900
+Reserva del Valle Latitud 31.7700 Longitud -106.5000
+Residencial Alamedas Latitud 31.7800 Longitud -106.5100
+Residencial Almendros Latitud 31.7900 Longitud -106.5200
+Residencial Andalucía Latitud 31.8000 Longitud -106.5300
+Residencial Bugambilias Latitud 31.8100 Longitud -106.5400
+Residencial Campestre Senecu Latitud 31.8200 Longitud -106.5500
+Residencial Coloso Latitud 31.7500 Longitud -106.4800
+Residencial el Papalote Latitud 31.7600 Longitud -106.4900
+Residencial Florencia Latitud 31.7700 Longitud -106.5000
+Residencial Galgodromo Latitud 31.7800 Longitud -106.5100
+Residencial Hacienda Latitud 31.7900 Longitud -106.5200
+Residencial Insurgentes Latitud 31.8000 Longitud -106.5300
+Residencial Ixtapa Latitud 31.8100 Longitud -106.5400
+Residencial las Cumbres Latitud 31.8200 Longitud -106.5500
+Residencial las Fuentes Latitud 31.8300 Longitud -106.5600
+Residencial las Villas Latitud 31.8400 Longitud -106.5700
+Residencial Lausane Latitud 31.8500 Longitud -106.5800
+Residencial La Villa Latitud 31.8600 Longitud -106.5900
+Residencial María Isabel Latitud 31.8700 Longitud -106.6000
+Residencial Montecarlo Latitud 31.8800 Longitud -106.6100
+Residencial Pueblo del Sol Latitud 31.8900 Longitud -106.6200
+Residencial San Francisco Latitud 31.9000 Longitud -106.6300
+Residencial San Jerónimo Latitud 31.9100 Longitud -106.6400
+Residencial Sendas Latitud 31.9200 Longitud -106.6500
+Residencial Victoria Latitud 31.9300 Longitud -106.6600
+Residencial Villa Jardín Latitud 31.9400 Longitud -106.6700
+Residencial Villas del Bravos Latitud 31.9500 Longitud -106.6800
+Residencial Villas Loreto Latitud 31.9600 Longitud -106.6900
+Revolución Mexicana Latitud 31.9700 Longitud -106.7000
+Reyna Fabiola Latitud 31.9800 Longitud -106.7100
+Ricardo Flores Magón Latitud 31.9900 Longitud -106.7200
+Ricardo Montoya Latitud 32.0000 Longitud -106.7300
+Rinconada de las Flores Latitud 32.0100 Longitud -106.7400
+Rinconada de las Torres Latitud 32.0200 Longitud -106.7500
+Rinconada de las Torres IV Latitud 32.0300 Longitud -106.7600
+Rinconada del Río Latitud 32.0400 Longitud -106.7700
+Rinconada de San Marcos Latitud 32.0500 Longitud -106.7800
+Rinconada los Nogales Latitud 32.0600 Longitud -106.7900
+Rincón del Amanecer Latitud 32.0700 Longitud -106.8000
+Rincón de La Mesa Latitud 32.0800 Longitud -106.8100
+Rincón de las Flores Latitud 32.0900 Longitud -106.8200
+Rincón de las Flores II Latitud 32.1000 Longitud -106.8300
+Rincón del Cielo Latitud 32.1100 Longitud -106.8400
+Rincón del Portal Latitud 32.1200 Longitud -106.8500
+Rincón del Río Latitud 32.1300 Longitud -106.8600
+Rincón del Río II Latitud 32.1400 Longitud -106.8700
+Rincón del Seminario Latitud 31.7400 Longitud -106.4800
+Rincón del Sol Latitud 31.7500 Longitud -106.4900
+Rincón del Solar Latitud 31.7600 Longitud -106.5000
+Rincón del Solar II Latitud 31.7700 Longitud -106.5100
+Rincón del Sur Latitud 31.7800 Longitud -106.5200
+Rincón del Valle Latitud 31.7900 Longitud -106.5300
+Rincón de Waterfill Latitud 31.8000 Longitud -106.5400
+Rincones de Cartagena Latitud 31.8100 Longitud -106.5500
+Rincones del Campanario Latitud 31.8200 Longitud -106.5600
+Rincones del Campestre Latitud 31.8300 Longitud -106.5700
+Rincones del Valle Latitud 31.8400 Longitud -106.5800
+Rincones de Oriente Latitud 31.8500 Longitud -106.5900
+Rincones de Salvarcar Latitud 31.8600 Longitud -106.6000
+Rincones de Salvarcar II Latitud 31.8700 Longitud -106.6100
+Rincones de San Marcos Latitud 31.8800 Longitud -106.6200
+Rincones de Santa Fe Latitud 31.8900 Longitud -106.6300
+Rincones de Santa Rita Latitud 31.9000 Longitud -106.6400
+Río Grande Latitud 31.9100 Longitud -106.6500
+Río Grande I - XXV Latitud 31.9200 Longitud -106.6600
+Riveras del Bravo Latitud 31.9300 Longitud -106.6700
+Riveras del Bravo IX Latitud 31.9400 Longitud -106.6800
+Rodas Latitud 31.9500 Longitud -106.6900
+Rodriguez Borunda Latitud 31.9600 Longitud -106.7000
+Roma Latitud 31.9700 Longitud -106.7100
+Roma Poniente Latitud 31.9800 Longitud -106.7200
+Ruiseñor Latitud 31.9900 Longitud -106.7300
+Salvarcar Latitud 32.0000 Longitud -106.7400
+Samalayuca Latitud 32.0100 Longitud -106.7500
+San Agustin Latitud 31.7000 Longitud -106.4200
+San Ángel Latitud 31.7100 Longitud -106.4300
+San Antonio Latitud 31.7200 Longitud -106.4400
+San Antonio Senecu Latitud 31.7300 Longitud -106.4500
+San Borja Latitud 31.7400 Longitud -106.4600
+Sandra Lucia Latitud 31.7500 Longitud -106.4700
+San Felipe el Real Latitud 31.7600 Longitud -106.4800
+San Fernando Latitud 31.7700 Longitud -106.4900
+San Isidro Río Grande Latitud 31.7800 Longitud -106.5000
+San Jerónimo Latitud 31.7900 Longitud -106.5100
+San José Latitud 31.8000 Longitud -106.5200
+San Lorenzo Latitud 31.8100 Longitud -106.5300
+San Marcos Latitud 31.8200 Longitud -106.5400
+San Miguel de Allende Latitud 31.8300 Longitud -106.5500
+San Pablo Latitud 31.8400 Longitud -106.5600
+San Patricio Latitud 31.8500 Longitud -106.5700
+San Pedro Latitud 31.8600 Longitud -106.5800
+San Pedro del Real Latitud 31.8700 Longitud -106.5900
+San Rafael Latitud 31.8800 Longitud -106.6000
+Santa Catalina Latitud 31.8900 Longitud -106.6100
+Santa Cecilia Latitud 31.9000 Longitud -106.6200
+Santa Engracia Latitud 31.9100 Longitud -106.6300
+Santa Fe Latitud 31.9200 Longitud -106.6400
+Santa Lucía Latitud 31.9300 Longitud -106.6500
+Santa María Latitud 31.9400 Longitud -106.6600
+Santa Martha Latitud 31.9500 Longitud -106.6700
+Santa Mónica Latitud 31.9600 Longitud -106.6800
+Santa Rosa Latitud 31.9700 Longitud -106.6900
+Santa Rosalía Latitud 31.9800 Longitud -106.7000
+Santa Teresa Latitud 31.9900 Longitud -106.7100
+San Valentín Latitud 32.0000 Longitud -106.7200
+Sara Lugo Latitud 32.0100 Longitud -106.7300
+Satélite Latitud 32.0200 Longitud -106.7400
+Senderos del Sol Latitud 32.0300 Longitud -106.7500
+Senderos de Oriente Latitud 32.0400 Longitud -106.7600
+Senderos de San Isidro Latitud 32.0500 Longitud -106.7700
+Senecu I Latitud 32.0600 Longitud -106.7800
+Senecu II Latitud 32.0700 Longitud -106.7900
+Señorial Latitud 32.0800 Longitud -106.8000
+Servet Latitud 32.0900 Longitud -106.8100
+Sevilla Latitud 32.1000 Longitud -106.8200
+Sicomoros Latitud 32.1100 Longitud -106.8300
+Sierra Grande Latitud 32.1200 Longitud -106.8400
+Sierra Vista Latitud 32.1300 Longitud -106.8500
+Siglo XXI Latitud 32.1400 Longitud -106.8600
+Silvias Latitud 32.1500 Longitud -106.8700
+Simón Rodriguez Latitud 32.1600 Longitud -106.8800
+SOCOCEMA Latitud 32.1700 Longitud -106.8900
+Sol de Mayo Latitud 32.1800 Longitud -106.9000
+Solidaridad Latitud 32.1900 Longitud -106.9100
+Sor Juana Inés de La Cruz Latitud 32.2000 Longitud -106.9200
+Stockmeyer Latitud 32.2100 Longitud -106.9300
+Suecia Latitud 32.0000 Longitud -106.7200
+Suterm Latitud 32.2300 Longitud -106.9500
+Tabachines Latitud 32.2400 Longitud -106.9600
+Tarahumaras Latitud 32.2500 Longitud -106.9700
+Tarragona Latitud 32.2600 Longitud -106.9800
+TEC de Monterrey Latitud 32.2700 Longitud -106.9900
+Tecnológico Latitud 32.2800 Longitud -107.0000
+Telegrafistas Latitud 32.2900 Longitud -107.0100
+Terranova Latitud 32.3000 Longitud -107.0200
+Terranova Sur Latitud 32.3100 Longitud -107.0300
+Terrazas del Valle Latitud 32.3200 Longitud -107.0400
+Terrenos Nacionales Sur Latitud 32.3300 Longitud -107.0500
+Tierra Nueva I Etapa Latitud 32.3400 Longitud -107.0600
+Tierra Nueva II Etapa Latitud 32.3500 Longitud -107.0700
+Tierra y Libertad Latitud 32.3600 Longitud -107.0800
+Tiradores del Norte Latitud 32.3700 Longitud -107.0900
+Tita Latitud 32.3800 Longitud -107.1000
+Toledo Latitud 32.3900 Longitud -107.1100
+Toribio Ortega Latitud 32.4000 Longitud -107.1200
+Torreón Latitud 32.4100 Longitud -107.1300
+Torres del PRI Latitud 32.4200 Longitud -107.1400
+Torres del Sur Latitud 32.4300 Longitud -107.1500
+Trébol Norte Latitud 32.4400 Longitud -107.1600
+Trébol Sur Latitud 32.4500 Longitud -107.1700
+Tres Fresnos Latitud 32.4600 Longitud -107.1800
+Tres Hermanos Arecco Latitud 32.4700 Longitud -107.1900
+Tres Torres Latitud 32.4800 Longitud -107.2000
+U.H. Benito Juárez Latitud 32.4900 Longitud -107.2100
+U.H. Emiliano Zapata Latitud 32.5000 Longitud -107.2200
+U.H. Paso del Norte Latitud 32.5100 Longitud -107.2300
+U.H. Reforma Latitud 32.5200 Longitud -107.2400
+Uranga-Unzueta Latitud 31.7000 Longitud -106.4200
+Urbi Alameda Versalles Latitud 31.7100 Longitud -106.4300
+Urbiquinta Granada Latitud 31.7200 Longitud -106.4400
+Urbi Quinta Montecarlo Latitud 31.7300 Longitud -106.4500
+Urbivilla Bonita Latitud 31.7400 Longitud -106.4600
+Urbivilla del Campo Latitud 31.7500 Longitud -106.4700
+Urbivilla del Cedro Latitud 31.7600 Longitud -106.4800
+Urbivilla del Prado Latitud 31.7700 Longitud -106.4900
+Urbivilla del Prado I Latitud 31.7800 Longitud -106.5000
+Valladolid Latitud 31.7900 Longitud -106.5100
+Vallarta Latitud 31.8000 Longitud -106.5200
+Valle Alto Latitud 31.8100 Longitud -106.5300
+Valle de Allende Latitud 31.8200 Longitud -106.5400
+Valle del Bravo Latitud 31.8300 Longitud -106.5500
+Valle del Marqués Latitud 31.8400 Longitud -106.5600
+Valle de los Cantaros Latitud 31.8500 Longitud -106.5700
+Valle del Sol Latitud 31.8600 Longitud -106.5800
+Valle de Olivos Latitud 31.8700 Longitud -106.5900
+Valle de Santiago Latitud 31.8800 Longitud -106.6000
+Valle Diamante Latitud 31.8900 Longitud -106.6100
+Valle Dorado Latitud 31.9000 Longitud -106.6200
+Valle Dorado I Latitud 31.9100 Longitud -106.6300
+Valle Dorado II Latitud 31.9200 Longitud -106.6400
+Valle Dorado III Latitud 31.9300 Longitud -106.6500
+Valle Fundadores Latitud 31.9400 Longitud -106.6600
+Valle Oriente Latitud 31.9500 Longitud -106.6700
+Valles de América Latitud 31.9600 Longitud -106.6800
+Valle Sur Latitud 31.9700 Longitud -106.6900
+Valle Verde Latitud 31.9800 Longitud -106.7000
+Venecia Latitud 31.9900 Longitud -106.7100
+Veneciano Latitud 32.0000 Longitud -106.7200
+Veredas del Sol Latitud 32.0100 Longitud -106.7300
+Vergel Satélite I y II Latitud 32.0200 Longitud -106.7400
+Versalles Latitud 32.0300 Longitud -106.7500
+Vicente Guerrero Latitud 32.0400 Longitud -106.7600
+Villa Alegre Latitud 32.0500 Longitud -106.7700
+Villa Alegre I, II, III Latitud 32.0600 Longitud -106.7800
+Villa Bonita Latitud 32.0700 Longitud -106.7900
+Villa Colonial Latitud 32.0800 Longitud -106.8000
+Villa de La Arboleda Latitud 32.0900 Longitud -106.8100
+Villa del Lago Latitud 32.1000 Longitud -106.8200
+Villa del Norte Latitud 32.1100 Longitud -106.8300
+Villa Esperanza Latitud 32.1200 Longitud -106.8400
+Villahermosa Latitud 32.1300 Longitud -106.8500
+Villa Jacarandas Latitud 32.1400 Longitud -106.8600
+Villa Jardín Latitud 32.1500 Longitud -106.8700
+Villa Manzanares Latitud 32.1600 Longitud -106.8800
+Villa Marcela Latitud 32.1700 Longitud -106.8900
+Villa Mexicana Latitud 32.1800 Longitud -106.9000
+Villa Residencial del Real Latitud 32.1900 Longitud -106.9100
+Villas Adlin Latitud 32.2000 Longitud -106.9200
+Villas Anitas Latitud 32.2100 Longitud -106.9300
+Villa San Pablo Latitud 32.2200 Longitud -106.9400
+Villas Cerezmy Latitud 32.2300 Longitud -106.9500
+Villas Conifer Latitud 32.2400 Longitud -106.9600
+Villas de Alcalá Latitud 32.2500 Longitud -106.9700
+Villas del Bravo I Latitud 32.2600 Longitud -106.9800
+Villas del Granero Latitud 32.2700 Longitud -106.9900
+Villas del Lobo Latitud 32.2800 Longitud -107.0000
+Villas del Río Latitud 32.2900 Longitud -107.0100
+Villas del Solar Latitud 32.3000 Longitud -107.0200
+Villas del Sur Latitud 32.3100 Longitud -107.0300
+Villas del Valle Latitud 32.3200 Longitud -107.0400
+Villas de Pradera Dorada Latitud 32.3300 Longitud -107.0500
+Villas de Salvarcar Latitud 32.3400 Longitud -107.0600
+Villas de Senecu Latitud 32.3500 Longitud -107.0700
+Villas Primavera Latitud 32.3600 Longitud -107.0800
+Villas San Ángel A y B Latitud 32.3700 Longitud -107.0900
+Villas San José Latitud 32.3800 Longitud -107.1000
+Villas San Marcos Latitud 32.3900 Longitud -107.1100
+Villas San Rafael Latitud 32.4000 Longitud -107.1200
+Villas Santa Fe Latitud 32.4100 Longitud -107.1300
+Villas Santa Teresa Latitud 32.4200 Longitud -107.1400
+Villas Solares Latitud 32.4300 Longitud -107.1500
+Villas Vista del Sol Latitud 32.4400 Longitud -107.1600
+Vista de la Cumbre I, II, III Latitud 32.4500 Longitud -107.1700
+Vista del Norte Latitud 32.4600 Longitud -107.1800
+Vista del Sol Latitud 32.4700 Longitud -107.1900
+Vista del Valle Latitud 32.4800 Longitud -107.2000
+Vista Hermosa Latitud 31.7000 Longitud -106.4200
+Vistas de la Aurora Latitud 31.7100 Longitud -106.4300
+Vistas del Bravo I Latitud 31.7200 Longitud -106.4400
+Vistas del Bravo II Latitud 31.7300 Longitud -106.4500
+Vistas del Bravo III Latitud 31.7400 Longitud -106.4600
+Vistas de Zaragoza Latitud 31.7500 Longitud -106.4700
+Waterfill Río Bravo Latitud 31.7600 Longitud -106.4800
+Yolanda Latitud 31.7700 Longitud -106.4900
+Zacatecas Latitud 31.7800 Longitud -106.5000
+Zaragoza Latitud 31.7900 Longitud -106.5100
+Zuri Latitud 31.8000 Longitud -106.5200

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::selection {
+    background: #0c2c2a;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./img/download.jpeg);
+}
+
+.container {
+    padding: 40px;
+    border-radius: 10px;
+    border: 8px solid #17222d;
+    background: #223243;
+    -webkit-box-shadow: 0px 12px 53px 7px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 0px 12px 53px 7px rgba(0, 0, 0, 0.73);
+    box-shadow: 0px 12px 20px 7px rgba(0, 0, 0, 0.73);
+}
+
+.container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container .form h2 {
+    color: #d7bcf8;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+.container .form {
+    position: relative;
+    width: 500px;
+}
+
+.container .form input {
+    padding: 12px 10px 12px 10px;
+    border: none;
+    width: 100%;
+    background: #223243;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: lavenderblush;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    border-radius: 25px;
+    font-size: 1em;
+    transition: 0.5s;
+    outline: none;
+    text-align: center;
+}
+
+.container .form input {
+    border: 1px solid #4a00df;
+    text-align: center;
+}
+
+.form input:focus,
+.form input:hover {
+    background: #9c46f936;
+    color: lavenderblush;
+    letter-spacing: 0.5rem;
+}
+
+.input-container {
+    height: 100%;
+    width: 100%;
+}
+
+.container .form input[type="submit"] {
+    background: #4a00df;
+    color: lavenderblush;
+    padding: 10px 0;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: -25px -25px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.35, inset -5px -5px 15px rgba(255, 255, 255, 0.1), inset 5px 5px 15px rgba(0, 0, 0, 0.35));
+    border-radius: 5px;
+}
+
+.container .form p {
+    color: #d7bcf8;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.container .form p a {
+    font-weight: 500;
+    color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+    .container .form {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container .form {
+        width: 250px;
+    }
+}

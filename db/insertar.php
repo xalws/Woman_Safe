@@ -3,7 +3,7 @@ include("conection.php");
 
 // Extraer datos del formulario
 $historia = $_POST["historia"];
-$direccion = $_POST['direccion'];
+$id_col = $_POST['id_col'];
 $categoria = $_POST['categoria'];
 $fecha = $_POST['fecha'];
 
@@ -11,7 +11,7 @@ $fecha = $_POST['fecha'];
 date_default_timezone_set('America/Chihuahua');
 $fecha_denuncia = date('Y-m-d');
 
-if(empty($historia) || empty($direccion) || empty($fecha)){
+if(empty($historia) || empty($id_col) || empty($fecha)){
     echo "
         <script>
             alert(\"Se deben llenar todos los campos\");
@@ -23,8 +23,8 @@ if(empty($historia) || empty($direccion) || empty($fecha)){
 }else{
     // Insertar los datos 
     $query = "INSERT INTO denuncias 
-    (historia, direccion, categoria, fecha, fecha_denuncia) 
-    VALUES ('$historia', '$direccion', '$categoria', '$fecha', '$fecha_denuncia')";
+    (historia, id_col, categoria, fecha, fecha_denuncia) 
+    VALUES ('$historia', '$id_col', '$categoria', '$fecha', '$fecha_denuncia')";
 
     mysqli_query($conn, $query);
 

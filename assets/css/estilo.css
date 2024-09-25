@@ -108,6 +108,17 @@ img {
     color: white;
 }
 
+.alert{
+    border-color: var(--c-body);
+    color: white;
+    background-color: red;
+}
+
+.alert:hover{
+    background-color: brown;
+    color: white;
+}
+
 .btn-brand:hover {
     transition: 0.5s;
     background-color: var(--c-brand-light);

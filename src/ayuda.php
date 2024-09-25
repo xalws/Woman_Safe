@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ayuda</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="../assets/css/estilo.css">
     <link rel="stylesheet" href="https://unpkg.com/remixicon/fonts/remixicon.css">
-
+    <link rel="shortcut icon" href="/assets/img/woman.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.php">MujerSegura</a>
+            <a class="navbar-brand" href="../index.php">MujerSegura</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./src/mapa/mapas_denuncias.php">Mapa</a>
+                        <a class="nav-link" href="mapas_denuncias.php">Mapa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ayuda</a>
                     </li>
                 </ul>
-                <a href="./src/denunciar.php" class="btn btn-brand ms-lg-3">denunciar</a>
+                <a href="denunciar.php" class="btn btn-brand ms-lg-3">denunciar</a>
             </div>
         </div>
     </nav>
@@ -46,7 +46,8 @@
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold"> Ayuda</h1>
                         <div class="line"></div>
-                        <p>Abrazos no balazos</p>
+                        <p>Imagina cuánto más felices seríamos, cuánta más libertad tendríamos para ser nosotros
+                        y nosotras mismas, si no tuviésemos el peso de las expectativas de género.</p>
                     </div>
                 </div>
             </div>

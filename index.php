@@ -7,6 +7,7 @@
     <title>MujerSegura</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="shortcut icon" href="/assets/img/woman.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -22,10 +23,10 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./src/mapa/mapas_denuncias.php">Mapa</a>
+                        <a class="nav-link" href="./src/mapas_denuncias.php">Mapa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./ayuda.php">Ayuda</a>
+                        <a class="nav-link" href="./src/ayuda.php">Ayuda</a>
 
                     </li>
                 </ul>
@@ -43,7 +44,7 @@
                 <h1 class="text-uppercase text-white fw-semibold display-1">MujerSegura</h1>
                 <h5 class="text-white mt-3 mb-4">Esta plataforma está hecha para ayudar a las mujeres</h5>
                 <div>
-                    <a href="#" class="btn btn-brand me-2">Mas Informacion</a>
+                    <a href="#" class="btn alert me-2">Alertar</a>
                 </div>
             </div>
         </div>

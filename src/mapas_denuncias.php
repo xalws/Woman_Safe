@@ -1,5 +1,5 @@
 <?php
-include("../../db/conection.php");
+include("../db/conection.php");
 try {
     $denuncias = "SELECT lat, longitude, nombre FROM mapa";
     $sentencia_zonas = $conn->prepare($denuncias);
@@ -33,13 +33,14 @@ try {
         src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-routing-machine/3.2.12/leaflet-routing-machine.min.js"></script>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-routing-machine/3.2.12/leaflet-routing-machine.min.css" />
-    <link rel="stylesheet" href="../../assets/css/estilo.css">
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <link rel="shortcut icon" href="/assets/img/woman.svg" type="image/x-icon">
 </head>
 <header>
     <!-- Nabvar -->
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="../../index.php">MujerSegura</a>
+            <a class="navbar-brand" href="../index.php">MujerSegura</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -49,10 +50,10 @@ try {
                         <a class="nav-link" href="#">Mapa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../ayuda.php">Ayuda</a>
+                        <a class="nav-link" href="ayuda.php">Ayuda</a>
                     </li>
                 </ul>
-                <a href="../denunciar.php" class="btn btn-brand ms-lg-3">denunciar</a>
+                <a href="denunciar.php" class="btn btn-brand ms-lg-3">denunciar</a>
                 </li>
                 </ul>
             </div>
@@ -122,8 +123,8 @@ try {
                 return d;
             }
 
-            // Rango de 5 km
-            var minDistance = 5;
+            // Rango de 2 km
+            var minDistance = 2;
             var zonaCercana = null;
 
             zonas.forEach(function(zona) {
@@ -136,7 +137,7 @@ try {
 
             // Si obtuvo una zona
             if (zonaCercana) {
-                alert('Cuidado la zona de riesgo: ' + zonaCercana.nombre + 'esta en un rango de ' + minDistance.toFixed(2) + ' kilometros.');
+                alert('Cuidado la zona de riesgo: ' + zonaCercana.nombre + ' esta en un rango de ' + minDistance.toFixed(2) + ' kilometros.');
             } else {
                 alert('No se encontro una zona de peligro cercana.');
             }
