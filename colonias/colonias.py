@@ -19,12 +19,13 @@ for i in colonias_sin_acentos:
         lat_part = partes[lat_index]
         lng_part = partes[lng_index]
 
-        print(f'<option value="{num}">{nombre_colonia}</option>')
-        num+=1
-#         # Añadir el valor a la lista
-#         valores.append(f"('{nombre_colonia}', {lat_part}, {lng_part})")
+        # print(f'<option value="{num}">{nombre_colonia}</option>')
+        # num+=1
         
-# # Crear la sentencia SQL
-# if valores:
-#     sql = f"INSERT INTO coordenadas (nombre_colonia, latitud, longitud) VALUES\n" + ",\n".join(valores) + ";"
-#     print(sql)
+        # Añadir el valor a la lista
+        valores.append(f"('{nombre_colonia}', {lat_part}, {lng_part})")
+        
+# Crear la sentencia SQL
+if valores:
+    sql = f"INSERT INTO coordenadas (nombre_colonia, latitud, longitud) VALUES\n" + ",\n".join(valores) + ";"
+    print(sql)
