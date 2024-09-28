@@ -38,24 +38,32 @@ try {
 </head>
 <header>
     <!-- Nabvar -->
-    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <nav class="navbar bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="../index.php">MujerSegura</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Mapa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ayuda.php">Ayuda</a>
-                    </li>
-                </ul>
-                <a href="denunciar.php" class="btn btn-brand ms-lg-3">denunciar</a>
-                </li>
-                </ul>
+            <div class="d-flex align-items-center ms-auto">
+                <!-- Agregamos un contenedor flexible -->
+                <a href="denunciar.php" class="btn btn-brand ms-4">Denunciar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Mapa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ayuda.php">Ayuda</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -64,7 +72,7 @@ try {
 <body>
     <div id="map_e"></div>
     <script>
-        // Si no da la ubicacion
+        // Si no da la ubicación
         var defaultLatitude = 31.6899507139661;
         var defaultLongitude = -106.42805552045542;
 
@@ -96,17 +104,17 @@ try {
         }
 
         map_e.on('click', clickMapa);*/
-        
-        // Obtener ubicacion del usuario
-        navigator.geolocation.getCurrentPosition(function (position) {
-             // Obtener las coordenadas de latitud y longitud 
+
+        // Obtener ubicación del usuario
+        navigator.geolocation.getCurrentPosition(function(position) {
+            // Obtener las coordenadas de latitud y longitud 
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
 
             // Mostrar el marcador de la ubicación del usuario
             var latlng = L.latLng(latitude, longitude);
             L.marker(latlng).addTo(map_e)
-                .bindPopup('Tu ubicacion').openPopup();
+                .bindPopup('Tu ubicación').openPopup();
             map_e.setView([latitude, longitude], 12);
 
             // Calcular la Zona más cercana con Haversine
@@ -137,15 +145,33 @@ try {
 
             // Si obtuvo una zona
             if (zonaCercana) {
-                alert('Cuidado la zona de riesgo: ' + zonaCercana.nombre + ' esta en un rango de ' + minDistance.toFixed(2) + ' kilometros.');
+                Swal.fire({
+                    title: '¡Alerta!',
+                    text: 'Cuidado la zona de riesgo ' + zonaCercana.nombre + 'esta en un rango de ' + minDistance.toFixed(2) + 'kilometros ',
+                    icon: 'warning',
+                    confirmButtonText: 'Aceptar'
+                });
             } else {
-                alert('No se encontro una zona de peligro cercana.');
+                Swal.fire({
+                title: 'Sin riesgo',
+                text: 'No se encontraron zonas de riesgo en un radio de 2 kilometros.',
+                icon: 'success',
+                confirmButtonText: 'Aceptar'
+            });
             }
 
-        }, function(){
-            alert('Ubicacion no disponible.');
+        }, function() {
+            Swal.fire({
+                title: 'Permiso de ubicación',
+                text: 'No se han proporcionado permisos de ubicación.',
+                icon: 'error',
+                confirmButtonText: 'Aceptar'
+            });
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 
 </html>

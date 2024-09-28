@@ -1,15 +1,5 @@
 <?php
 include("../db/conection.php");
-// Obtener las denuncias del ultimo mes
-$query_denuncias = "SELECT * FROM denuncias WHERE fecha_denuncia >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)";
-$result = mysqli_query($conn, $query_denuncias);
-
-// Total de denuncias
-$query_total = 'SELECT COUNT(*) FROM denuncias';
-$result_total = $conn->query($query_total);
-
-// Recuperar el total 
-$cantidad = $result_total->fetch_row()[0];
 
 // Colonias repetidas
 $query_repetidos = "SELECT id_col, COUNT(*) as conteo 
@@ -33,6 +23,30 @@ while ($row_repetido = mysqli_fetch_assoc($result_repetidos)) {
 date_default_timezone_set('America/Chihuahua');
 $fecha = date('Y-m-d');
 
+// Consulta para contar las denuncias por mes y año
+$sql = "SELECT 
+            YEAR(fecha_denuncia) AS year, 
+            MONTH(fecha_denuncia) AS month, 
+            COUNT(*) AS total
+        FROM denuncias
+        GROUP BY year, month
+        ORDER BY year, month";
+
+$result_grafico = $conn->query($sql);
+
+// Crear un array para almacenar los datos
+$data = array();
+
+// Verificar si hay resultado y guardarlos en el array
+if ($result_grafico->num_rows > 0) {
+    while ($row = $result_grafico->fetch_assoc()) {
+        $data[] = $row;
+    }
+}
+
+// Convertir los datos a formato JSON para usarlos en JavaScript
+$data_json = json_encode($data);
+
 ?>
 
 <!doctype html>
@@ -53,30 +67,38 @@ $fecha = date('Y-m-d');
 <body class="body">
     <header>
         <!-- Nabvar -->
-        <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <nav class="navbar bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="../index.php">MujerSegura</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="mapas_denuncias.php">Mapa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ayuda.php">Ayuda</a>
 
-                        </li>
-                    </ul>
-                    <a href="#" class="btn btn-brand ms-lg-3">Denunciar</a>
-                    </li>
-                    </ul>
+                <div class="d-flex align-items-center ms-auto">
+                    <!-- Agregamos un contenedor flexible -->
+                    <a href="#" class="btn btn-brand ms-4">Denunciar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="offcanvas offcanvas-end bg-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="text-white btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="mapas_denuncias.php">Mapa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayuda.php">Ayuda</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-
+    <br><br>
     <!-- Content -->
     <div class="container mt-4">
         <div class="row">
@@ -863,56 +885,82 @@ $fecha = date('Y-m-d');
                 </form>
                 <br>
 
-                <?php
-                // Mostrar denuncias
-                $a = 0;
-                while ($row = mysqli_fetch_assoc($result)) {
-                    $a = $a + 1;
-                }
-                ?>
-
             </div>
 
             <!-- Estadisticas -->
             <div class="col-lg-4">
                 <div class="stats-section">
                     <h5>Estadísticas</h5>
-                    <p>Denuncias recibidas este año: <?php echo $a; ?></p>
                     <canvas id="myChart" width="400" height="200"></canvas>
-                    <p>Denuncias totales: <?php echo $cantidad ?></p>
                 </div>
                 <div class="stats-section">
                     <h5 class="text-danger">
                         Atención
                     </h5>
                     <p>Esta NO es una denuncia oficial, recuerda denunciar ante las autoridades.
-                    Tu denuncia servirá para apoyar a otras mujeres y hacer notar que la violencia no es algo de segundo plano.
+                        Tu denuncia servirá para apoyar a otras mujeres y hacer notar que la violencia no es algo de segundo plano.
                     </p>
                 </div>
+                <div class="stats-section aling-center">
+                    <button
+                        onclick="window.location.href='tel:+526567993744';"
+                        class="btn btn-custom btn-add">
+                        Llamar a linea de ayuda
+                    </button>
+                </div>
+
+
 
             </div>
         </div>
     </div>
 
     <script>
+        // Array con los nombres de los meses para las etiquetas
+        const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
+        // Recibir los datos JSON generados por PHP
+        const data = <?php echo $data_json; ?>;
+
+        // Arrays para etiquetas y valores
+        const labels = [];
+        const values = [];
+
+        // Procesar los datos para agruparlos por año y mes
+        data.forEach(d => {
+            const label = meses[d.month - 1] + ' ' + d.year; // Crear etiqueta "Mes Año"
+            labels.push(label);
+            values.push(d.total);
+        });
+
+        // Crear el gráfico con Chart.js
         const ctx = document.getElementById('myChart').getContext('2d');
-        const chart = new Chart(ctx, {
+        new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Sep', 'Oct'],
+                labels: labels,
                 datasets: [{
-                    label: 'Denuncias',
-                    data: [1, 8],
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)'
+                    label: 'Número de Denuncias',
+                    data: values,
+                    backgroundColor: 'rgb(141, 72, 138)',
+                    borderColor: 'rgb(141, 72, 138)',
+                    borderWidth: 1
                 }]
             },
-            options: {}
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
         });
     </script>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 
